@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <script></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>Style Aura</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link" style="text-decoration: underline;"><a href="contact.html">Contact Us</a></p>
+
+
+            <div class="navbar-menu-toggle" onclick="sideopen()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <div class="Side-navbar">
+        <p style="text-align: right;" onclick="sideclose()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="Side-navbar-links">
+            <p class="Side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="Side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="Side-navbar-link"><a href="contact.html">Contact Us</a></p>
+        </div>
+
+    </div>
+    <div class="contact-form">
+        <form>
+            <h1>Contact Form</h1>
+            <label>Name:</label>
+            <br>
+            <input type="text"><br>
+            <label>Email:</label><br>
+            <input type="email"><br>
+            <label>Message:</label><br>
+
+            <input type="text"><br>
+
+            <button>Submit</button>
+        </form>
+
+    </div>
+
+
+    <!--Footer section-->
+    <div class="footer">
+
+        <h1>ARA</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+
+        <div class="footer-icons">
+            <i class="fa-brands fa-instagram "></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <p>@2024 ARA.com</p>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
